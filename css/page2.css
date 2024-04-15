@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+  width: 375px;
+  height: 44px;
+}
+
+.container .status {
+  max-width: 100%;
+  height: auto;
+}
+
+.skip-button {
+  position: relative;
+  top: 44px;
+  left: 300px;
+  width: 36px;
+  height: 20px;
+  color: #9fb2ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.image {
+  position: relative;
+  width: 282px;
+  height: 282px;
+  display: block;
+  top: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 100px;
+}
+
+.content-heading {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+  width: 160px;
+  height: 24px;
+  margin-top: 40px;
+}
+
+.content-line {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  width: 343px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 290px;
+  background: linear-gradient(135deg, #cdd5f6, #9fb2ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 5px #9fb2ff;
+  bottom: 20px;
+}
+
+.arrow {
+  width: 6px;
+  height: 12px;
+}

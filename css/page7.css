@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+  width: 375px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.back-page {
+  width: 20px;
+  height: 20px;
+  padding: 6px 7px 6px 8px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.tracker-heading {
+  margin-left: 75px;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.arrow-left {
+  transform: rotate(-180deg);
+  margin: 0 10px;
+}
+
+.arrow-right {
+  margin: 0 10px;
+}
+
+.date {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  text-align: center;
+}
+
+.search {
+  position: relative;
+  background: linear-gradient(90.95deg, #dee5ff 0.79%, #809aff 99.18%);
+  width: 63px;
+  height: 63px;
+  top: 699px;
+  left: 156px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  top: -30px;
+}
+
+.footer {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-schedule {
+  text-align: center;
+}
+
+.time {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  text-align: start;
+}
+
+hr {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.schedule {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  text-align: left;
+  background: linear-gradient(270deg, #d3a4f4 0%, #e9b1e0 102.35%);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.schedule1 {
+  position: absolute;
+  top: 275px;
+  left: 200px;
+}
+
+.schedule2 {
+  position: absolute;
+  top: 340px;
+  left: 120px;
+}
+
+.schedule-grey {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  text-align: left;
+  background: var(--gray-50, #f1f1f1);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.schedule3 {
+  position: absolute;
+  top: 540px;
+  left: 120px;
+}
+
+.add {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  background: linear-gradient(90.95deg, #e9b1e0 0.79%, #d3a5f2 99.18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  top: 590px;
+  left: 300px;
+}

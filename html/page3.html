@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/page3.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <h2 class="create-account-heading">Create an Account</h2>
+        <form action="#" method="POST" class="mt-8 form-container">
+            <div class="mb-4">
+                <input type="text" class="input-field" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+            <div class="mb-4">
+                <input type="text" class="input-field" id="lastName" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="mb-4">
+                <input type="email" class="input-field" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="mb-4">
+                <input type="password" class="input-field" id="password" name="password" placeholder="Password">
+            </div>
+            <label class="checkbox-container">
+                <input type="checkbox">
+                 By proceeding, I agree to all <a href="#">T&C</a> and <a href="#">Privacy Policy</a>
+            </label>
+            <button type="submit" class="submit-button" id="register">Create an Account</button>
+
+            <hr class="or-divider">
+            <span>or</span>
+            <div class="icon-container">
+                <div class="icon"><img src="/utils/google.png" alt="google"></div>
+                <div class="icon"><img src="/utils/fb.png" alt="facebook"></div>
+            </div>
+            <p class="already-have-account">Already have an account? <a href="#" id="login">Login</a></p>
+        </form>
+    </div>
+    <script src="../js/page3.js"></script>
+</body>
+
+</html>

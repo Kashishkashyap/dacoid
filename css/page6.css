@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+  width: 375px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.back-page {
+  width: 20px;
+  height: 20px;
+  padding: 6px 7px 6px 8px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.tracker-heading {
+  margin-left: 75px;
+}
+
+.chart-text {
+  font-family: Montserrat;
+  font-size: 11.2px;
+  font-weight: 400;
+  line-height: 13.65px;
+  text-align: left;
+}
+
+.chart-text1 {
+  position: relative;
+  left: 130px;
+}
+
+.chart-text2 {
+  position: relative;
+  left: 200px;
+}
+
+.info1 {
+  position: relative;
+  left: 152px;
+}
+
+.info2 {
+  position: relative;
+  left: 257px;
+}
+
+.warning-section {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90.07deg,
+    rgba(129, 157, 255, 0.28) 5.94%,
+    rgba(16, 16, 16, 0) 76.45%
+  );
+  width: 328.75px;
+  height: 50px;
+  gap: 79.39px;
+  border-radius: 10px;
+  border: 1.02px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.warning-sign {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.warning-text {
+  font-family: Montserrat;
+  font-size: 12.57px;
+  font-weight: 500;
+  line-height: 15.32px;
+  text-align: left;
+}
+
+.upcoming-workout {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+.see-more span {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.schedule-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 343px;
+  border-radius: 10px;
+  box-shadow: -4px 8px 25px -8px #00000026;
+  padding: 10px 0px;
+}
+
+.workout-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #819aff26;
+}
+
+.workout-text {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 40px;
+  height: 20px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 20px;
+  left: 4px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+.text-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.workout-text {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.time-text {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.19px;
+  text-align: left;
+  color: #7f7f7f;
+  margin-top: auto;
+}
+
+.heading-train {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.table-container {
+  display: flex;
+  align-items: center;
+  background: #8cb1ff99;
+  /* 60% opacity */
+  /* padding: 10px; */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.text-container {
+  flex-grow: 1;
+}
+
+.workout-text {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.sub-text {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.19px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.workout-image-footer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 40px;
+  padding: 5px;
+}
+
+.search {
+  position: relative;
+  background: linear-gradient(90.95deg, #dee5ff 0.79%, #809aff 99.18%);
+  width: 63px;
+  height: 63px;
+  top: 699px;
+  left: 156px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  top: -30px;
+}
+
+.footer {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
